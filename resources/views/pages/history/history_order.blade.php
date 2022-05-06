@@ -49,7 +49,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>0564811836</h5>
+                                <h5>0369497573</h5>
                                 <span>{{__('hỗ trợ')}} 24/7</span>
                             </div>
                         </div>
@@ -124,7 +124,8 @@
                             </td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" class="btn btn-info btn-round">
-                                <a class="material-icons" href="{{URL::to('/view-history-order/'.$order->order_code)}}" data-original-title="Update">{{ __('Xem chi tiết đơn hàng') }}</a>
+                                <a  href="{{URL::to('/view-history-order/'.$order->order_code)}}" data-original-title="Update"> {{ __('Xem chi tiết đơn hàng') }}</a>
+                               
                               </button>
                             </td>
                           </tr>
