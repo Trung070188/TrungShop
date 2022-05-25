@@ -109,12 +109,12 @@
                             <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
                                 <tr>
                                     <td align="center" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; padding-top: 25px;"> <img src="https://img.icons8.com/carbon-copy/100/000000/checked-checkbox.png" width="125" height="120" style="display: block; border: 0px;" /><br>
-                                        <h2 style="font-size: 30px; font-weight: 800; line-height: 36px; color: #333333; margin: 0;"> Đơn Đặt Hàng Tại Fresh Fruit! </h2>
+                                        <h2 style="font-size: 30px; font-weight: 800; line-height: 36px; color: #333333; margin: 0;"> Đơn Đặt Hàng TrungShop! </h2>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td align="left" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; padding-top: 10px;">
-                                        <p style="font-size: 16px; font-weight: 400; line-height: 24px; color: #777777;"> Đơn hàng của bạn đã đặt tại Fresh Fruit. Cảm ơn bạn đã tin tưởng và ủng hộ Fresh Fruit. Chúc bạn có một ngày làm việc may mắn. </p>
+                                        <p style="font-size: 16px; font-weight: 400; line-height: 24px; color: #777777;"> Đơn hàng của bạn đã đặt tại TrungShop. Cảm ơn bạn đã tin tưởng và ủng hộ TrungShop. Chúc bạn có một ngày làm việc may mắn. </p>
                                     </td>
                                 </tr>
                                 <tr>

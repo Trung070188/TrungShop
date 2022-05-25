@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="{{asset('backend/assets/img/icon.png')}}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Dashboard Fresh Fruit
+    Dashboard TrungShop
   </title>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/css/fonts-family.css')}}" />
@@ -28,7 +28,7 @@
 <body class="">
   <!-- Extra details for Live View on GitHub Pages --> 
   <div class="wrapper ">
-    <div class="sidebar" data-color="rose" data-background-color="black" data-image="{{asset('backend/assets/img/sidebar-1.jpg')}}">
+    <div class="sidebar" data-color="rose" data-background-color="blue" data-image="{{asset('backend/assets/img/sidebar-1.jpg')}}">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -39,7 +39,7 @@
 
         </a>
         <a href="{{URL::to('/dashboard')}}" class="simple-text logo-normal">
-          TrungShop <img src="{{asset('backend/assets/img/icon.png')}}" sizes="70x70">
+          TrungShop 
         </a>
         
       </div>
@@ -260,30 +260,7 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#Footer">
-              <i class="material-icons">build</i>
-              <p> {{__('Footer')}}
-                <b class="caret"></b>
-              </p>
-            </a>
-            <div class="collapse" id="Footer">
-              <ul class="nav">
-                <li class="nav-item ">
-                  <a class="nav-link" href="{{URL::to('/layout-footer')}}">
-                    <span class="sidebar-mini"> SP </span>
-                    <span class="sidebar-normal"> {{__('Thêm Footer')}} </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="{{URL::to('/all-footer')}}">
-                    <span class="sidebar-mini"> SP </span>
-                    <span class="sidebar-normal">{{__('Liệt Kê Footer')}} </span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
+         
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ads">
               <i class="material-icons">ads_click</i>
@@ -392,9 +369,6 @@
       </div>
       <div class="fixed-plugin">
         <div class="dropdown show-dropdown">
-          <a href="#" data-toggle="dropdown">
-            <i class="fa fa-cog fa-2x"> </i>
-          </a>
           <ul class="dropdown-menu">
             <li class="header-title"> Sidebar Filters</li>
             <li class="adjustments-line">

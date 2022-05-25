@@ -34,12 +34,12 @@ body {
 
 <div class="coupon">
   <div class="container">
-    <center><h3 style ="color:red;font-size:30px">FRESH FRUIT DISCOUPON</h3></center>
+    <center><h3 style ="color:red;font-size:30px">TrungShop</h3></center>
   </div>
-  <img src="https://i0.wp.com/s1.uphinh.org/2021/05/05/taonew.md.jpg" alt="Avatar" style="width:100%;">
+  <img src="https://toyota-haiduong.vn/wp-content/uploads/2019/03/2-1.jpg" alt="Avatar" style="width:100%;">
   <div class="container" style="background-color:white">
     <h2><b>NHANH TAY NHẬP MÃ GIẢM GIÁ</b> <b>{{$coupon['coupon_name']}}</b></h2> 
-    <p>Fresh Fruit gửi đến bạn mã giảm giá, cảm ơn bạn đã đồng hành và tin tưởng chúng tôi trong thời gian qua, mã giãm giá của bạn đã sẵn sàng hãy sử dụng nó ngay.</p>
+    <p>TrungShop gửi đến bạn mã giảm giá, cảm ơn bạn đã đồng hành và tin tưởng chúng tôi trong thời gian qua, mã giãm giá của bạn đã sẵn sàng hãy sử dụng nó ngay.</p>
   </div>
   <div class="container">
     <p>Số Lượng Mã : <span class="promo">{{$coupon['coupon_qty']}}</span></p>

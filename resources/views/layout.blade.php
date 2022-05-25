@@ -7,7 +7,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{$meta_title}} </title>
+    <title>TrungShop </title>
 
     <!-- Google Font -->
    <!-- <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet"-->
@@ -454,7 +454,7 @@
 
                 if (parseInt(cart_product_qty)>parseInt(cart_product_quantity)){
                     if (parseInt(cart_product_quantity)==0) {
-                        swal("{{__('Vui lòng liên hệ SĐT: 0564811836 để đặt hàng!')}}");
+                        swal("{{__('Vui lòng liên hệ SĐT: 0369497573 để đặt hàng!')}}");
                     } else{
                         swal("{{__('Vui Lòng Nhập Số Lượng Nhỏ Hơn')}} "+cart_product_quantity,"", "warning");
                     }

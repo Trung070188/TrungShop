@@ -57,7 +57,7 @@ class CheckoutController extends Controller
              //seo 
             $meta_desc = "Lịch Sử Đơn Hàng"; 
             $meta_keywords = "Lịch Sử Đơn Hàng";
-            $meta_title = "Fresh Fruit";
+            $meta_title = "TrungShop";
             $url_canonical = $request->url();
             //--seo
             //category blog
@@ -80,7 +80,7 @@ class CheckoutController extends Controller
              //seo 
             $meta_desc = "Lịch Sử Đơn Hàng"; 
             $meta_keywords = "Lịch Sử Đơn Hàng";
-            $meta_title = "Fresh Fruit";
+            $meta_title = "TrungShop";
             $url_canonical = $request->url();
             //--seo
             //category blog
