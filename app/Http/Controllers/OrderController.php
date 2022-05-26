@@ -15,7 +15,7 @@ use App\Models\Coupon;
 use PDF;
 use Session;
 use Carbon\Carbon;
-use Auth;
+use Illuminate\support\Facades\Auth;
 class OrderController extends Controller
 {   public function AuthenLogin(){
         $admin_id =Auth::id();

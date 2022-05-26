@@ -7,12 +7,12 @@ use App\Imports\ExcelImports;
 use App\Exports\ExcelExports;
 use App\Models\Category;
 use Excel;
-use DB;
+use Illuminate\support\Facades\DB;
 use App\Http\Requests\AddCategoryRequests;
 use App\Http\Requests\ExcelRequests;
 use App\Http\Requests;
-use Session;
-use Auth;
+use Illuminate\support\Facades\Session;
+use Illuminate\support\Facades\Auth;
 use Illuminate\support\Facades\Redirect;
 
 session_start();

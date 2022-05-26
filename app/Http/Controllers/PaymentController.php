@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use DB;
 use App\Http\Requests;
 use Illuminate\support\Facades\Redirect;
-use Session;
+use Illuminate\support\Facades\Session;
 use Cart;
 use Mail;
 use App\Models\Order;

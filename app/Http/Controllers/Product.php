@@ -3,14 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use DB;
 use App\Http\Requests\AddProductRequests;
 use App\Http\Requests;
-use Session;
 use Illuminate\support\Facades\Redirect;
 use Illuminate\Foundation\Http\FormRequest;
 use App\Models\Products;
-use Auth;
+use Illuminate\support\Facades\Auth;
+use Illuminate\support\Facades\DB;
+use Illuminate\support\Facades\Session;
+
 if(!isset($_SESSION)) { session_start(); }
 
 class Product extends Controller
