@@ -7,7 +7,7 @@ use Illuminate\support\Facades\Redirect;
 use Illuminate\support\Facades\Route;
 use App\Models\Roles;
 use App\Models\Login;
-use Auth;
+use Illuminate\support\Facades\Auth;
 
 class UserController extends Controller
 {

@@ -20,7 +20,7 @@ class HomeController extends Controller
       //seo 
         $meta_desc = "Chuyên bán trái cây dinh dưỡng cao, hoàn toàn tự nhiên không sử dụng các loại hóa chất"; 
         $meta_keywords = "Trái cây, Trái cây tươi, Trái cây nhập khẩu, Trái cây sạch";
-        $meta_title = "Fresh Fruit";
+        $meta_title = "Trung Shop";
         $url_canonical = $request->url();
         //--seo
         //category blog

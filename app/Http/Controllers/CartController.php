@@ -22,7 +22,8 @@ use App\Models\City;
 use App\Models\Province;
 use App\Models\Wards;
 use App\Models\Feeship;
-use Auth;
+use Illuminate\support\Facades\Auth;
+
 session_start();
 class CartController extends Controller
 {
