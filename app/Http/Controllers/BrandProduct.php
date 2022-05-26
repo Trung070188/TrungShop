@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use DB;
+use Illuminate\support\Facades\DB;
 use App\Imports\ExcelImportsBrand;
 use App\Exports\ExcelExportsBrand;
 use App\Http\Requests\AddBrandRequests;
