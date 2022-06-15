@@ -59,7 +59,7 @@ class SliderController extends Controller
             $get_name_image = $get_image->getClientOriginalName();
             $name_image = current(explode('.',$get_name_image));
             $new_image =  $name_image.rand(0,99).'.'.$get_image->getClientOriginalExtension();
-            $get_image->move('public/upload/slider', $new_image);
+            $get_image->move('upload/slider', $new_image);
 
             $slider = new Slider();
             $slider->slider_name = $data['slider_name'];
@@ -83,7 +83,7 @@ class SliderController extends Controller
             $get_name_image = $get_image->getClientOriginalName();
             $name_image = current(explode('.',$get_name_image));
             $new_image =  $name_image.rand(0,99).'.'.$get_image->getClientOriginalExtension();
-            $get_image->move('public/upload/slider', $new_image);
+            $get_image->move('upload/slider', $new_image);
 
             $slider = Slider::find($slider_id);
             $slider->slider_name = $data['slider_name'];
@@ -104,7 +104,7 @@ class SliderController extends Controller
         $slider = Slider::find($slider_id);
         $slider_image = $slider->slider_image;
         if ($slider_image) {
-            $path = 'public/upload/slider/'.$slider_image;//đường dẫn
+            $path = 'upload/slider/'.$slider_image;//đường dẫn
             unlink($path);//xóa hình ảnh bài viết
         }
         $slider->delete();
@@ -153,7 +153,7 @@ class SliderController extends Controller
             $get_name_image = $get_image->getClientOriginalName();
             $name_image = current(explode('.',$get_name_image));
             $new_image =  $name_image.rand(0,99).'.'.$get_image->getClientOriginalExtension();
-            $get_image->move('public/upload/qc', $new_image);
+            $get_image->move('upload/qc', $new_image);
 
             $ads = new Ads();
             $ads->ads_name = $data['ads_name'];
@@ -179,7 +179,7 @@ class SliderController extends Controller
             $get_name_image = $get_image->getClientOriginalName();
             $name_image = current(explode('.',$get_name_image));
             $new_image =  $name_image.rand(0,99).'.'.$get_image->getClientOriginalExtension();
-            $get_image->move('public/upload/qc', $new_image);
+            $get_image->move('upload/qc', $new_image);
 
             $ads = Ads::find($ads_id);
             $ads->ads_name = $data['ads_name'];
@@ -201,7 +201,7 @@ class SliderController extends Controller
         $ads = Ads::find($ads_id);
         $ads_image = $ads->ads_image;
         if ($ads_image) {
-            $path = 'public/upload/qc/'.$ads_image;//đường dẫn
+            $path = 'upload/qc/'.$ads_image;//đường dẫn
             unlink($path);//xóa hình ảnh bài viết
         }
         $ads->delete();

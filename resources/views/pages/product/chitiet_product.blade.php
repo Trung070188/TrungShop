@@ -1,19 +1,5 @@
 @extends('layout')
 @section('content')
-     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg owl-carousel owl-loaded owl-drag" style="margin-left: 100px;width: 1150px;height: 150px;" data-setbg="{{URL::to('frontend/image/breadcrumb.jpg')}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <div class="breadcrumb__option">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Breadcrumb Section End -->
 <!-- Product Details Section Begin -->
     <section class="product-details spad">
         <div class="container">
@@ -41,16 +27,6 @@
                                     <?php
                                 }
                                     ?>
-                        <div class="product__details__rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <span>(18 reviews)</span>
-                        </div>
-
-
                         <form  method="POST">
                             {{csrf_field()}}
                             <input type="hidden" value="{{$value->product_id}}" class="cart_product_id_{{$value->product_id}}">
@@ -128,11 +104,7 @@
                                 }
                                     ?> 
                                 </li>
-                            <li><b>{{__('Chia Sẻ')}}:</b>
-                                <div class="share">
-                                    <div class="fb-like" data-href="{{$url_canonical}}" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
-                                </div>
-                            </li>
+                        
                         </ul>
                     </div>
                 </div>
@@ -143,10 +115,6 @@
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
                                     aria-selected="true">{{__('Mô Tả')}}</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
-                                    aria-selected="false">{{__('Đánh Giá')}} <span>(1)</span></a>
                             </li>
                         </ul>
                         <div class="tab-content">
@@ -171,12 +139,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="tab-pane" id="tabs-2" role="tabpanel">
-                                <div class="product__details__tab__desc">
-                                    <h6>{{__('Các Đánh Giá')}}</h6>
-                                    <div class="fb-comments" data-href="{{$url_canonical}}" data-width="800" data-numposts="5"></div>
-                                </div>
-                            </div>
+                        
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
      <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg owl-carousel owl-loaded owl-drag" style="margin-left: 100px;width: 1150px;height: 150px;" data-setbg="{{URL::to('frontend/image/breadcrumb.jpg')}}">
+    <!-- <section class="breadcrumb-section set-bg owl-carousel owl-loaded owl-drag" style="margin-left: 100px;width: 1150px;height: 150px;" data-setbg="{{URL::to('frontend/image/breadcrumb.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Breadcrumb Section End -->
     <!-- Blog Section Begin -->
     <section class="blog spad">

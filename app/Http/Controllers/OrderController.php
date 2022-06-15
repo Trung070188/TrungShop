@@ -215,7 +215,7 @@ class OrderController extends Controller
                 }
                 </style>
                 <table class="Table">
-                  <h1><center>Trái Cây Fresh Fruit</center></h1>
+                  <h1><center>Trái Cây Trung Shop</center></h1>
                   <center><img src="https://i0.wp.com/s1.uphinh.org/2021/05/12/logo.jpg" height="150px" width="300px" class="img"></center>
                 </table>
                 <p>Tài khoản đặt hàng</p>
@@ -366,6 +366,7 @@ class OrderController extends Controller
 
        $order_details_product = OrderDetails::with('product')->where('order_code',$order_code)->get();
        foreach ($order_details_product as $key => $order_d) {
+         
          $product_coupon = $order_d->product_coupon;
        }
        if($product_coupon != 'no'){

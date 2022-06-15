@@ -67,7 +67,6 @@
                             <h2></h2>
                             <p></p>
                             </br></br></br></br></br></br></br></br>
-                            <a href="{{URL::to('/trang-chu')}}" class="primary-btn">SHOP NOW</a>
                         </div>
                     </div>
                     @endforeach

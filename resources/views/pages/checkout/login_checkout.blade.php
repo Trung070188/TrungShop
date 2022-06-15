@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="signin-content">
                     <div class="signin-image ">
-                        <figure><img src="{{asset('frontend/login-checkout/images/signin-image.jpg')}}" alt="sing up image"></figure>
+                        <figure ><img style="width: 400px;height: 400px;margin-left: -44px;margin-top: -56px" src="{{asset('frontend/image/TrungShop.png')}}" alt="sing up image"></figure>
                         <a style="width: 100px;float: left;text-align: center;" href="{{URL::to('/register-checkout')}}" class="signup-image-link">Tạo tài khoản</a>
                         <a href="{{URL::to('/trang-chu')}}" class="signup-image-link">Trở về trang chủ</a>
                     </div>

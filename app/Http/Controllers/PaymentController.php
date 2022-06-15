@@ -131,7 +131,7 @@ class PaymentController extends Controller
 		        }
 		        //send email
 		        $now = Carbon::now('Asia/Ho_Chi_Minh')->format('d-m-Y');
-		        $title_mail = 'Đơn xác nhận mua hàng tại Fresh Fruit'. ' ' .$now;
+		        $title_mail = 'Đơn xác nhận mua hàng '. ' ' .$now;
 		        $customer = Customer::find(Session::get('customer_id'));
 
 		        $data['email'][] = $customer->customer_email;
