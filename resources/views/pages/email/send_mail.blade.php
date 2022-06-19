@@ -69,7 +69,7 @@
     </style>
 
 <body style="margin: 0 !important; padding: 0 !important; background-color: #eeeeee;" bgcolor="#eeeeee">
-    <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Open Sans, Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Fresh Fruit
+    <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Open Sans, Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">Trung Shop
     </div>
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
         <tr>
@@ -81,7 +81,7 @@
                                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:300px;">
                                     <tr>
                                         <td align="left" valign="top" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 800; line-height: 48px;" class="mobile-center">
-                                            <h1 style="font-size: 36px; font-weight: 800; margin: 0; color: #ffffff;">Fresh Fruit</h1>
+                                            <h1 style="font-size: 36px; font-weight: 800; margin: 0; color: #ffffff;">Trung Shop</h1>
                                         </td>
                                     </tr>
                                 </table>

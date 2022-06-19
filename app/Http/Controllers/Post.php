@@ -121,7 +121,7 @@ class Post extends Controller
         $brand = Brand::where('brand_status','1')->orderby('brand_id','desc')->get();
             $meta_desc = "Những Tin Tức Liên Quan Đến Trái Cây Sạch"; 
             $meta_keywords = "Tin Tức, Trái Cây Sạch, Ưu Đãi, Giảm Giá, ..."; 
-            $meta_title = "Tin Tức Fresh Fruit"; ;
+            $meta_title = "Tin Tức Trung Shop"; ;
             $url_canonical = $request->url();
         $post = Posts::where('post_status',1)->orderBy('post_id','DESC')->paginate(6);
         return view('pages.blog.tin_tuc')->with(compact('category','brand','meta_desc','meta_keywords','meta_title','url_canonical','category_blog','post'));

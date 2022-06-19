@@ -317,8 +317,8 @@
                   </p>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownLanguage">
-                  <a class="dropdown-item" href="{{URL::to('language',['en'])}}"><img src="https://dkmh.tdmu.edu.vn/App_Themes/Standard/Images/US.gif" height="20" width="30"><span style="margin-left:5px;">English</span></a>
-                  <a class="dropdown-item" href="{{URL::to('language',['vi'])}}"><img src="https://dkmh.tdmu.edu.vn/App_Themes/Standard/Images/VI.gif" height="20" width="30"><span style="margin-left:5px;">Vietnamese</span></a>
+                  <a class="dropdown-item" href="{{URL::to('language',['en'])}}"> <span style="margin-left:5px;">English</span></a>
+                  <a class="dropdown-item" href="{{URL::to('language',['vi'])}}"> <span style="margin-left:5px;">Vietnamese</span></a>
                 </div>
               </li>
               <li class="nav-item dropdown">

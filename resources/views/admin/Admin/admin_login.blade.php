@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" href="{{asset('backend/assets/img/icon.png')}}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Fresh Fruit Admin
+     Admin
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!-- Extra details for Live View on GitHub Pages -->
@@ -61,7 +61,7 @@
   <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
     <div class="container">
       <div class="navbar-wrapper">
-        <a class="navbar-brand">Login Fresh Fruit</a>
+        <a class="navbar-brand">Login Trung Shop</a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>

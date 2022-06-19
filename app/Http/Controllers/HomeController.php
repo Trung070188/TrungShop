@@ -52,7 +52,7 @@ class HomeController extends Controller
         //seo 
         $meta_desc = "Tìm kiếm sản phẩm"; 
         $meta_keywords = "Search,tìm kiếm,tra cứu,keywords";
-        $meta_title = "Fresh Fruit";
+        $meta_title = "Trung Shop";
         $url_canonical = $request->url();
         //--seo
         $keywords = $request->keywords_submit;

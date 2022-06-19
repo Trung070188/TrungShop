@@ -13,7 +13,7 @@ use App\Models\Products;
 use App\Models\Statistic;
 use App\Models\Coupon;
 use PDF;
-use Session;
+use Illuminate\support\Facades\Session;
 use Carbon\Carbon;
 use Illuminate\support\Facades\Auth;
 class OrderController extends Controller

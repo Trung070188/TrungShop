@@ -185,7 +185,7 @@ class CheckoutController extends Controller
 
         //send email
         $now = Carbon::now('Asia/Ho_Chi_Minh')->format('d-m-Y');
-        $title_mail = 'Đơn xác nhận mua hàng tại Fresh Fruit'. ' ' .$now;
+        $title_mail = 'Đơn xác nhận mua hàng tại Trung Shop'. ' ' .$now;
         $customer = Customer::find(Session::get('customer_id'));
 
         $data['email'][] = $customer->customer_email;
@@ -328,7 +328,7 @@ class CheckoutController extends Controller
     public function send_reset(Request $request){
         $data = $request->all();
         $now = Carbon::now('Asia/Ho_Chi_Minh')->format('d-m-Y');
-        $title_mail = 'Lấy lại mật khẩu tại Fresh Fruit'. ' ' .$now;
+        $title_mail = 'Lấy lại mật khẩu '. ' ' .$now;
         $customer = Customer::where('customer_email','=',$data['email_account'])->get();
         foreach ($customer as $key => $value) {
            $customer_id = $value->customer_id;
